@@ -17,12 +17,32 @@ html {
     box-sizing: inherit;
 }
 
-main {
+body {
     width: 100vw;
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+.attribution {
+    width: 100%;
+    text-align: center;
+    padding: 2em 0;
+    font-size: 16px;
+}
+
+.attribution a {
+    text-decoration: none;
+    color: #48556a;
+    font-weight: 700;
 }
 
 .card {
@@ -189,7 +209,7 @@ h6 {
         width: 30px;
         height: 30px;
         background: #48556a;
-        bottom: -30px;
+        bottom: -28px;
         clip-path: polygon(50% 50%, 0 0, 100% 0);
     }
 
