@@ -14,11 +14,11 @@ Puedes ver el demo aquí → [Article Component](https://cjosue15.github.io/arti
 
 🖥 Version Escritorio
 
-![](./examples/desktop.png)
+![](./examples/desktop.PNG)
 
 📱 Version Celular
 
-![](./examples/movil.png)
+![](./examples/movil.PNG)
 
 ## 🛠️ Construido con
 
